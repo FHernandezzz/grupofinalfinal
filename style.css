@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,7 +5,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: url(img/pexels-clément-proust-18554368.jpg) center center / cover no-repeat fixed;;
+  background: url(img/pexels-clément-proust-18554368.jpg) center center / cover no-repeat fixed;
+  margin-bottom: 5vw; /* Altura del footer */
 }
 
 .container {
@@ -60,17 +60,17 @@ h1 {
   max-height: 50px; 
   overflow: hidden; 
   white-space: nowrap;
-  margin-right: 10px; 
+    margin-right:10px; 
 }
 
 .nav-link:hover {
-  background-color: #c1c1c1;
+    background-color:#c1c1c1; 
 }
 
 
 
 .active {
-  background-color: #662a22;
+    background-color:#662a22; 
 }
 
 .contenedor {
@@ -84,44 +84,158 @@ h1 {
   min-height: 130px;
 }
 
+.contenedor1 {
+  text-align:center;  
+  margin-top :4%;  
+  padding-top :2%;  
+  background-color :#ffea7f;  
+  box-shadow :0px,0px,10px rgba(163,8,8,0.2);  
+  border-radius :5px;
+  border: 2px solid #ffffff; 
+  min-height :130px;   
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.contenedor2 {
+  text-align:center;  
+  margin-top : 5%;  
+  padding-top :2%;  
+  background-color :#ffea7f;  
+  box-shadow :0px,0px,10px rgba(163,8,8,0.2);  
+  border-radius :5px;
+  border: 2px solid #ffffff; 
+  min-height :130px;   
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+  line-height: 1.5;
+}
+
+.contenedor3 {
+    text-align:center;  
+    margin-top :4%;  
+    padding-top :2%;  
+    background-color :#ffea7f;  
+    box-shadow :0px,0px,10px rgba(163,8,8,0.2);  
+    border-radius :5px;
+    border:2px solid #ffffff;
+    min-height :130px;   
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:90%;
+}
+
+.contenedor4 {
+    text-align:center;  
+    margin-top :4%;  
+    padding-top :2%;  
+    background-color :#ffea7f;  
+    box-shadow :0px,0px,10px rgba(163,8,8,0.2);  
+    border-radius :5px;
+    border:2px solid #ffffff;
+    min-height :130px;   
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:90%;
+}
+
+.contenedor5 {
+    text-align:center;  
+    margin-top:4%;  
+    padding-top:2%;  
+    background-color:#ffea7f;  
+    box-shadow:0px,0px,10px rgba(163,8,8,0.2);  
+    border-radius:5px;
+    border:2px solid #ffffff;
+    min-height:130px;   
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:90%;
+}
+
+.contenedor6 {
+    text-align:center;  
+    margin-top:4%;  
+    padding-top:2%;  
+    background-color:#ffea7f;  
+    box-shadow:0px,0px,10px rgba(163,8,8,0.2);  
+    border-radius:5px;
+    border:2px solid #ffffff;
+    min-height:130px;   
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width:90%;
+}
+
+
+
 .contc {
-  color: #000000;
-  font-size: 1em;
+   color:#000000 ;  
+   font-size :1em ;  
 }
 
 .footer {
-  background-color: #823c30;
-  width: 100%;
-  color: white;
-  font-weight: 200;
-  display: flex;
-  align-items: center;
-  font-size: 1.2vw;
-  justify-content: center;
-  align-items: center;
-  position: fixed; 
-  bottom: 0;
-  left: 0; 
-  right: 0; 
+   background-color:#823c30 ;  
+   width :100% ;  
+   color:white ;  
+   font-weight :200 ;  
+   display:flex ;  
+   align-items:center ;  
+   font-size :1.2vw ;  
+   justify-content:center ;  
+   align-items:center ;  
+   position :fixed ;   
+   bottom :0 ;   
+   left :0 ;    
+   right :0 ;    
 
 }
 
 .container-m {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2%;
-  justify-content: space-around;
+   display:flex ;   
+   flex-wrap :wrap ;   
+   padding :2% ;   
+   justify-content :space-around ;   
 }
 
 .team-memberc {
-  text-align: center;
-  margin: 2%;
-  width: 45%;
+   text-align:center ;   
+   margin :2% ;   
+   width :45% ;   
 }
 
 .team-memberc:hover img, .team-memberc:hover p {
   transform: translateY(-10px);
   transition: transform 0.3s;
+}
+#logoTobi{
+  max-width: 9em;
+  border-radius: 50%;
+  width: 9em;
+  height: auto;
+}
+
+#logoStore{
+  max-width: 9em;
+  border-radius: 50%;
+  width: 9em;
+  height: auto;
 }
 
 .member-image img {
